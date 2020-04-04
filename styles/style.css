@@ -1,0 +1,59 @@
+:root{
+	--gridColumns: 0;
+	--gridRows: 0;
+}
+
+html {
+	background: black;
+}
+body {
+	background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 10px;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: repeat(var(--gridColumns), 1fr);
+	grid-template-rows: repeat(var(--gridRows), 1fr);
+	width: 960px;
+	height: 100vh;
+	background: gray;
+}
+
+.gridSquares{
+	background: purple;
+}
+
+.hover{
+	background: magenta;
+}
+
+#reset{
+	position: fixed;
+	width: 75px;
+	z-index: 2;
+}
+
+#clean{
+	position: fixed;
+	right: 15px;
+	width: 75px;
+	z-index: 2;
+}
+
+
+/* NOTES 
+
+
+
+*/
