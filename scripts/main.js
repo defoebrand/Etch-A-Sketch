@@ -13,10 +13,18 @@ reset.addEventListener("click", function(e){location.reload()});
 const clean = document.querySelector("#clean");
 gridBox.appendChild(clean);
 
-let rows = prompt("How many rows?");
-let columns = prompt("How many columns?");
+let rows;
+let columns; 
 
-let num = rows * columns;
+function makeGrid(){
+rows = prompt("How many rows?");
+columns = prompt("How many columns?");
+}
+
+let num;
+
+if(rows < 250 && columns < 250){num = rows * columns;}
+else{alert("That's too many boxes!"); makeGrid();}
 
 root.style.setProperty("--gridRows", rows);
 root.style.setProperty("--gridColumns", columns);
