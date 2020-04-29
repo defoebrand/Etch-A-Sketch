@@ -15,19 +15,18 @@ gridBox.appendChild(clean);
 
 let rows;
 let columns; 
+let num;
 
 function makeGrid(){
 rows = prompt("How many rows?");
 columns = prompt("How many columns?");
-}
-
-
-let num;
-
-makeGrid();
 
 if(rows < 250 && columns < 250){num = rows * columns;}
 else{alert("That's too many boxes!"); makeGrid();}
+
+}
+
+makeGrid();
 
 root.style.setProperty("--gridRows", rows);
 root.style.setProperty("--gridColumns", columns);
