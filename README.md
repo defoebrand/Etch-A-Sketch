@@ -1,6 +1,6 @@
 # Project Name
 
-Microverse Pre-course work Calculator
+Microverse Pre-course work Etch-a-Sketch
 
 ![screenshot]()
 
