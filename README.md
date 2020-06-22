@@ -2,7 +2,7 @@
 
 Microverse Pre-course work Etch-a-Sketch
 
-![screenshot]()
+![screenshot](images/screenshot.png)
 
 Additional description about the project and its features.
 
@@ -16,7 +16,7 @@ This project was the first project compiled by Brandon during the Microverse Pre
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/defoebrand/Etch-A-Sketch/2bd61a45da70768bb3af44a420caebda5f800f31/index.html)
 
 
 ## Getting Started
@@ -29,6 +29,7 @@ To get your own copy of our project clone the repository to your local machine.
 👤 **Brandon Defoe**
 
 - Github: [@defoebrand](https://github.com/defoebrand)
+- Gmail: defoe.brand@gmail.com
 
 ## 🤝 Contributing
 
@@ -40,9 +41,9 @@ Feel free to check the [issues page](issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
--
+## Future Features
+- option to change colors
+- interactive dials instead of using mouse
 
 ## 📝 License
 
